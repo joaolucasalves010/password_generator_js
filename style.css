@@ -49,3 +49,88 @@ input:focus {
   margin-bottom: 1.5rem;
   word-spacing: 50rem; /* quebra linha entre palavras  */
 }
+
+#register-form {
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#register-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#register-form p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #aaa;
+  font-size: 0.8rem;
+}
+
+.form-control {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+}
+
+.form-control input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.6rem 0;
+}
+
+#generate-password {
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 0.8;
+}
+
+#generate-password:hover {
+  color: #0078a5;
+  opacity: 1;
+}
+
+#register-form #generated-password {
+  border: 1px solid #0078a5;
+  font-weight: bold;
+  border-radius: 4px;
+  font-size: 1.2rem;
+  padding: 0.4rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #333;
+  display: none;
+}
+#register-form #generated-password p {
+  color: #81d340;
+  margin-bottom: 0.5rem;
+}
+
+#register-form input[type="submit"] {
+  background-color: #81d340;
+  color: #fff;
+  opacity: 0.8;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 1.4rem;
+  max-width: 150px;
+  cursor: pointer;
+  align-self: flex-end;
+  transition: 0.5s;
+  font-weight: bold;
+}
+
+#register-form input[type="submit"]:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
