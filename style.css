@@ -10,6 +10,7 @@ html,
 body {
   height: auto;
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 html {
@@ -188,4 +189,10 @@ input:focus {
 
 .hide {
   display: none;
+}
+
+@media (max-width: 425px) {
+  body {
+    overflow-
+  }
 }
