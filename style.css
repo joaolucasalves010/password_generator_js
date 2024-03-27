@@ -193,6 +193,6 @@ input:focus {
 
 @media (max-width: 425px) {
   body {
-    overflow-
+    overflow-y: hidden;
   }
 }
